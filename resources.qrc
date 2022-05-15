@@ -7,7 +7,6 @@
         <file>resources/Button2.png</file>
         <file>resources/monitor_ai.png</file>
         <file>resources/monitor_player.png</file>
-        <file>resources/rpc.ico</file>
         <file>resources/vcrosdmonorusbyd.ttf</file>
     </qresource>
 </RCC>
