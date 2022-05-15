@@ -7,14 +7,14 @@ Rectangle {
 
     Image {
         id: _icon
-        width: root.height
-        height: root.height
         antialiasing: false
         smooth: false
+        height: parent.height - parent.height/100 * 25
+        width: parent.width - parent.width/100 * 25
 
         anchors{
-        fill: parent
-        margins: 40
+        verticalCenter: parent.verticalCenter
+        horizontalCenter: parent.horizontalCenter
         }
 
         source: if (root.text === "Камень"){
